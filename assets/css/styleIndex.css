@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,900&display=swap');
 
+:root{
+    font-family: 'Lato';
+}
 body{
     background: #ff5e57;
 }
@@ -11,11 +14,7 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
-.container{
-    display: flex;
-    flex-flow: row;
 
-}
 
 #menu li{
     display: inline;
@@ -48,4 +47,18 @@ body{
 .center{
     justify-content: center;
     display: flex;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: justify;
+}
+
+.ff{
+    text-align: center;
+}
+
+.removermargem{
+    margin-top: 0px;
 }
